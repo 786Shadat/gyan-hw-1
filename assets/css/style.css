@@ -1,0 +1,66 @@
+/* template Name: geyen.
+version:1.0.0
+Author: gyen
+Author URI:  
+
+Table of Content
+=============================
+=>Home page
+********************
+1) Nav section
+2) Bannar seciton
+*/
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+small, span {
+  padding: 0;
+  margin: 0;
+}
+
+ol, ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  font-family: "Arimo", sans-serif;
+}
+
+#top_bar {
+  background: #2d3e50;
+  color: #fff;
+  font-size: 14px;
+}
+#top_bar a {
+  padding: 0 27px;
+  color: #fff;
+  -webkit-transition: 0.7s;
+  transition: 0.7s;
+}
+#top_bar .Login ul li:hover a {
+  color: #fba933;
+}
+
+#nav a {
+  font-size: 16px;
+  color: #2d3e50;
+  -webkit-transition: 0.7s;
+  transition: 0.7s;
+  padding: 20px;
+}
+#nav ul li:hover a {
+  color: #fba933;
+}
+#nav .get a {
+  padding: 16px 20px;
+  background: #fba933;
+  border-radius: 8px;
+}/*# sourceMappingURL=style.css.map */
